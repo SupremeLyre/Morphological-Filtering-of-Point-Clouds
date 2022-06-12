@@ -157,7 +157,7 @@ int main()
     vector<Point> PointGrid = push_window(l, r, up, b);
     printf("size of PointGrid:%ld\n", PointGrid.size());
     vector<double> MinPointGrid = Erosion(PointGrid);
-    printf("MinPorintGrid get.\n");
+    printf("MinPointGrid get.\n");
     vector<double> MaxPointGrid = Dilation(MinPointGrid);
     printf("MaxPointGrid get.\n");
     ofstream out;
